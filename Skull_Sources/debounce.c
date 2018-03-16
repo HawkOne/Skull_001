@@ -8,7 +8,7 @@ void Debounce_Handler(void) // works, don't remember how
 {
     static uint8_t debounce_on[5] = {0};
     static uint8_t debounce_off[5] = {0};
-	uint8_t i = 0;
+    uint8_t i = 0;
     uint8_t c = 0;
     // multiplexing 
     ROW1_TRIS = 0;
